@@ -25,11 +25,11 @@
     <span>
       <nav>
         <ul>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#changes">Changes</a>
-          <a>?????</a>
-          <a href="#galery">Galery</a>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#changes">Changes</a></li>
+          <li><a>?????</a></li>
+          <li><a href="#galery">Galery</a></li>
         </ul>
       </nav>
     </span>
@@ -44,7 +44,7 @@
       The story takes place after Metro 2033, with a new story guided by Dmitry Glukhovsky but written in-house at 4A-Games. The story continues on from the canonical ending of the previous game, in which Artyom destroyed the mysterious new mutant threat, the Dark Ones. In this setting, Artyom's allies: Khan and other Rangers, join forces once again to defend D6 from many foes including the Fourth Reich, communists and bandits. With this new installment 4A has introduced a multitude of new weapons, such as the bolt-action rifle, a single-shot pistol, a hand powered chain gun, as well new locations to play in.
       </p>
     </span>
-      <img src="../img/metroLLbox.jpg" >
+    <img src="../img/metroLLbox.jpg" >
     </div>
   </section>
   <section class="trecias" id="changes">

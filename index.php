@@ -1,3 +1,28 @@
+<?php
+$user = 'root';
+$password = 'root';
+$db = 'metro';
+$host = 'localhost';
+$port = 3306;
+
+$link = mysqli_init();
+$success = mysqli_real_connect(
+    $link,
+    $host,
+    $user,
+    $password,
+    $db,
+    $port
+);
+//Pridejimas
+$name = $_GET['name'];
+$email = $_GET['email'];
+if(isset($name) && isset($email)){
+    $sqlPridejimas = "INSERT INTO `m2033`(`id`, `name`, `email`) VALUES ('','$name','$email')";
+    $resultsPridejimas = mysqLi_query($link, $sqlPridejimas);
+}
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,11 +51,11 @@
     <span>
       <nav>
         <ul>
-          <a href="#top">Home</a>
-          <a href="#about">About</a>
-          <a href="#book">Book</a>
-          <a href="#studio">Studio</a>
-          <a href="#galery">Galery</a>
+          <li class="holo"><a href="#top">Home</a></li>
+          <li class="2"><a href="#about">About</a></li>
+          <li class="3"><a href="#book">Book</a></li>
+          <li class="4"><a href="#studio">Studio</a></li>
+          <li class="5"><a href="#galery">Gallery</a><li>
         </ul>
       </nav>
     </span>
@@ -102,14 +127,14 @@
   </div>
   </section>
   <section class="seven">
-    <form>
+    <form action="index.php" method="GET">
       <h1>Subscribe to newsletter</h1>
       <!--     <form action="index.php" method="get"> -->
       <label for="">Name:</label>
-      <input type="text" name="name">
+      <input type="text" name="name" placeholder="Name">
       <label for="">Email:</label>
-      <input type="text" name="email">
-      <button>sub</button>
+      <input type="text" name="email" placeholder="Email">
+      <button>SUBSCRIBE</button>
     </form>
     <div>
       <a href="https://www.facebook.com/m2033/" target="blank">
@@ -137,4 +162,4 @@
 </body>
 </html>
 <!-- youtube video padaryt embed/kodas? -->
-<!-- sestas beveik baigtas -->
+<!-- sestas baigtas -->

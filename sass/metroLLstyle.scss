@@ -88,17 +88,19 @@ table {
       position:fixed;
       bottom: 0;
       z-index:999;
-      a{
+      li{
         display: inline-block;
         width:16%;
+        margin: 0 auto;
         text-align: center;
-        color: #E3B31B;
         background-color: rgba(240, 240, 240, 0.3);
         font-size: 30px;
         font-weight: bold;
         padding-top: 1%;
         padding-bottom: 1%;
-
+        a{
+          color: #E3B31B;
+        }
     }
   }
 }
