@@ -13,7 +13,7 @@
 <body>
 <div class="video-background">
     <div class="video-foreground">
-      <iframe src="https://www.youtube.com/embed/fbbqlvuovQ0?t=3s&controls=0&showinfo=0&rel=0&autoplay=0&loop=1&playlist=fbbqlvuovQ0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/fbbqlvuovQ0?t=3s&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=fbbqlvuovQ0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -41,11 +41,22 @@
     Metro Exodus will be departing 2018 on Xbox One, PlayStation 4, and PC
     </span>
     <div>
-    <a href="https://www.facebook.com/Metro-Exodus-1004241283046010/" target="blank"><i class="fa fa-facebook-square" style="font-size:48px;color:#4267B2;"></i></a>
-    <a href="https://twitter.com/metrovideogame" target="blank"><i class="fa fa-twitter-square" style="font-size:48px;color:#1DA1F2;"></i></a>
-    <a href="http://store.steampowered.com/app/412020/Metro_Exodus/" target="blank" target="blank" ><i class="fa fa-steam-square" style="font-size:48px;color:#171A21;"></i></a>
-    <a href="https://www.youtube.com/user/metrovideogame" target="blank"><i class="fa fa-youtube-play" style="font-size:48px;color:#FF0000;"></i></a>
-    </div>
+    <a href="https://www.facebook.com/Metro-Exodus-1004241283046010/" target="blank">
+    <i class="fa fa-facebook-square" style="font-size:48px;"></i>
+    </a>
+    <a href="https://twitter.com/metrovideogame" target="blank">
+    <i class="fa fa-twitter-square" style="font-size:48px;"></i>
+    </a>
+    <a href="http://store.steampowered.com/app/412020/Metro_Exodus/" target="blank" target="blank" >
+    <i class="fa fa-steam-square" style="font-size:48px;"></i>
+    </a>
+    <a href="https://www.youtube.com/user/metrovideogame" target="blank">
+    <i class="fa fa-youtube-play" style="font-size:48px;"></i>
+    </a>
+    <a href="https://www.instagram.com/metrovideogame/" target="blank">
+      <i class="fa fa-instagram" style="font-size:48px;"></i>
+    </a>
+  </div>
   </section>
 </div>
 </body>

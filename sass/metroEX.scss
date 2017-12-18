@@ -87,7 +87,7 @@ table {
   section{
     box-sizing:border-box;
     display: block;
-    color:white;
+    color: #fff;
     width: 80%;
     span{
       background-color: rgba(0, 0, 0, 0.3);
@@ -108,8 +108,36 @@ table {
     }
     div{
       text-align: center;
+      color: black;
+      .fa-facebook-square:hover{
+      color:blue;
+      background-color: white;
+      border-radius: 20%;
+      }
+      .fa-twitter-square:hover{
+        color:#1DA1F2;
+        background-color:  white;
+        border-radius: 20%;
+      }
+      .fa-steam-square:hover{
+        color:#17405B;
+        background-color:  white;
+        border-radius: 20%;
+      }
+      .fa-youtube-play:hover{
+        color:red;
+        background-color:  white;
+        border-radius: 20%;
+      }
+      .fa-instagram:hover{
+        color:#D74D64;
+        background-color:  white;
+        border-radius: 20%;
+      }
+
       a{
         margin: 5%;
+        color:grey;
       }
     }
   }

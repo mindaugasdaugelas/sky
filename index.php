@@ -6,13 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style type="css.style.css"></style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Metro2033</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <section class="one">
+  <section class="one" id="top">
     <header>
       <ul>
         <li><a href="metroll.php"><img src="../img/metroLLlogo.png" height="100px"></a></li>
@@ -25,17 +26,16 @@
     <span>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Book</li>
-          <li>Studio</li>
-          <li>Galery</li>
-          <li>Info</li>
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#book">Book</a>
+          <a href="#studio">Studio</a>
+          <a href="#galery">Galery</a>
         </ul>
       </nav>
     </span>
   </section>
-  <section class="two">
+  <section class="two" id="about">
     <div>
     <span>
       <h1>About</h1>
@@ -45,7 +45,7 @@
       <img src="../img/m2033box.jpg" >
     </div>
   </section>
-  <section class="three">
+  <section class="three" id="book">
     <div>
       <img src="../img/m2033book.jpg">
       <span>
@@ -67,7 +67,7 @@
       
     </div>
   </section>
-  <section class="four">
+  <section class="four" id="studio">
     <div>
     <span>
       <h1>4A Games</h1>
@@ -83,20 +83,27 @@
     <img src="../img/4AGames.png">
     </div>
   </section>
-  <section class="five">
-    <h1>Galery</h1>
-    <div>
-    <iframe width="1500" height="844" src="https://www.youtube.com/embed/Xc2hhef-Nzo?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <section class="five" id="galery">
+    <h1>Video</h1>
+    <div class="videoWrapper">
+      <iframe  src="https://www.youtube.com/embed/Xc2hhef-Nzo?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
   </section>
   <section class="six">
+  <h1>Screenshots</h1>
   <div>
-    <img width="1500" src="../img/m2033s1.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s1.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s2.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s3.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s4.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s5.jpg">
+    <img class="mySlides" width="100%" src="../img/m2033s6.jpg">
+
   </div>
   </section>
   <section class="seven">
     <form>
-      <h1>Subscribe to news letter</h1>
+      <h1>Subscribe to newsletter</h1>
       <!--     <form action="index.php" method="get"> -->
       <label for="">Name:</label>
       <input type="text" name="name">
@@ -105,14 +112,29 @@
       <button>sub</button>
     </form>
     <div>
-    <a href="https://www.facebook.com/m2033/" target="blank"><i class="fa fa-facebook-square" style="font-size:48px;color:#4267B2;"></i></a>
-    <a href="https://twitter.com/metrovideogame" target="blank"><i class="fa fa-twitter-square" style="font-size:48px;color:#1DA1F2;"></i></a>
-    <a href="http://store.steampowered.com/app/286690/Metro_2033_Redux/" target="blank" target="blank" ><i class="fa fa-steam-square" style="font-size:48px;color:#171A21;"></i></a>
-    <a href="https://www.youtube.com/user/metrovideogame" target="blank"><i class="fa fa-youtube-play" style="font-size:48px;color:#FF0000;"></i></a>
-    <a href="https://www.goodreads.com/book/show/17274667-metro-2033" target="blank"><i class="fa fa-book" style="font-size:48px;color:#409D69;"></i></a>
+      <a href="https://www.facebook.com/m2033/" target="blank">
+        <i class="fa fa-facebook-square" style="font-size:48px;"></i>
+      </a>
+      <a href="https://twitter.com/metrovideogame" target="blank">
+      <i class="fa fa-twitter-square" style="font-size:48px;"></i>
+      </a>
+      <a href="http://store.steampowered.com/app/286690/Metro_2033_Redux/" target="blank" target="blank" >
+      <i class="fa fa-steam-square" style="font-size:48px;"></i>
+      </a>
+      <a href="https://www.youtube.com/user/metrovideogame" target="blank">
+      <i class="fa fa-youtube-play" style="font-size:48px;"></i>
+      </a>
+      <a href="https://www.goodreads.com/book/show/17274667-metro-2033" target="blank">
+      <i class="fa fa-book" style="font-size:48px;"></i>
+      </a>
+      <a href="https://www.instagram.com/metrovideogame/" target="blank">
+      <i class="fa fa-instagram" style="font-size:48px;"></i>
+      </a>
     </div>
 
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
-<!-- youtube video padaryt ember/kodas? -->
+<!-- youtube video padaryt embed/kodas? -->
+<!-- sestas beveik baigtas -->

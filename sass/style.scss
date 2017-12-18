@@ -84,19 +84,24 @@ table {
     nav{
       display: block;
       width: 80%;
-      margin: 0 auto;
       position:fixed;
       bottom: 0;
+      left: 0;
+      right:0;
       z-index:999;
-      li{
+      margin: 0 auto;
+      a{
         display: inline-block;
-        width:16%;
+        width:19%;
+        margin: 0 auto;
+        border-radius: 20%;
         text-align: center;
-        color: #E3B31B;
+        background-color: rgba(240, 240, 240, 0.3);
+        color: white;
         font-size: 30px;
         font-weight: bold;
-        padding-top: 1%;
-        padding-bottom: 1%;
+        // padding-top: 1%;
+        // padding-bottom: 1%;
 
     }
   }
@@ -106,7 +111,7 @@ table {
   background-repeat: no-repeat;
   height: 75vh;
   position: relative;
-  background-color: black;
+  background-color: rgb(14, 1, 1);
   color: white;
   div{
     padding-top:3%;
@@ -156,8 +161,9 @@ table {
       }
       p{
         font-size: 25px;
+        text-align: justify;
         overflow:auto;
-        height: 400px;
+        height: 500px;
       }
     }
     img{
@@ -171,7 +177,7 @@ table {
   background-repeat: no-repeat;
   height: 70vh;
   position: relative;
-  background-color: black;
+  background-color: rgb(3, 24, 1);
   color: white;
   div{
     padding-top: 3%;
@@ -201,6 +207,8 @@ table {
 
 .five{
   background-repeat: no-repeat;
+  background-image:url('../img/m2033b1.jpg');
+  background-attachment:fixed;
   height: 100vh;
   position:relative;
   background-color: black;
@@ -211,13 +219,20 @@ table {
     margin: 0 auto;
     width: 80%;
   }
-  div{
+  .videoWrapper{
+    position: relative;
+    padding-bottom: 44%; /* 16:9*/
+    padding-top: 25px;
+    height: 0;
     width: 80%;
     margin: 0 auto;
     iframe{
-      margin-top: 1%;
+      position: absolute;
+      width: 100%;
+      height: 100%;
     }
   }
+
 }
 .six{
   background-repeat: no-repeat;
@@ -225,10 +240,16 @@ table {
   position: relative;
   background-color: black;
   color: white;
+  h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+  }
   div{
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
   }
 
 }
@@ -236,13 +257,25 @@ table {
   background-repeat: no-repeat;
   height: 20vh;
   position: relative;
-  background-color: white;
-  color: black;
+  background-color: black;
+  // color: white;
   form{
     width: 80%;
     margin: 0 auto;
     text-align: center;
     display: block;
+    font-size: 25px;
+    color: white;
+    h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    label{
+      font-size: 35px;
+    }
+  }
     input{
     }
   }
@@ -253,8 +286,34 @@ table {
     box-sizing:border-box;
     i{
       display: inline-block;
-      margin-left: 1%;
-      margin-right: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
+      color: white;
+      border-radius: 20%;
+    }
+    .fa-facebook-square:hover{
+      color:blue;
+      background-color: white;
+    }
+    .fa-twitter-square:hover{
+      color:#1DA1F2;
+      background-color: white;
+    }
+    .fa-steam-square:hover{
+      color:#17405B;
+      background-color: white;
+    }
+    .fa-youtube-play:hover{
+      color:red;
+      background-color: white;
+    }
+    .fa-book:hover{
+      color:green;
+      background-color: white;
+    }
+    .fa-instagram:hover{
+      color:#D74D64;
+      background-color: white;
+    }
     }
   }
-}
