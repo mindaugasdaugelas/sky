@@ -47,7 +47,7 @@ table {
     border-spacing: 0;
 }
 
-/*cia prasideda SKY*/
+/*cia prasideda Metro 2033*/
 .one{
   background-image: url('../img/m2033main.jpg');
   background-repeat: no-repeat;
@@ -116,10 +116,13 @@ table {
   }
 }
 }
+//About
 .two{
   background-repeat: no-repeat;
   height: 75vh;
   position: relative;
+  font-size: 0;
+  box-sizing: border-box;
   background-color: rgb(14, 1, 1);
   color: white;
   div{
@@ -129,50 +132,62 @@ table {
     display: block;
     span{
       display:inline-block;
-      width: 60%;
+      width: 66%;
+      padding: 2%;
+      margin: 0 auto;
+      text-align: justify;
       background-color: rgba(0, 0, 0, 0.508);
       vertical-align: top;
       h1{
         font-size: 35px;
-        font-weight: bold;
+        font-family: "Cinzel";
       }
       p{
         font-size: 25px;
         padding-top:5%;
+        font-family: "Montserrat"
       }
     }
     img{
       display: inline-block;
       width: 30%;
-      margin-left: 4%;
+      margin: 0 auto;
     }
   }
 }
+//Book
 .three{
   background-repeat:no-repeat;
   height: 75vh;
   position:relative;
   color: white;
+  font-size: 0%;
   background-attachment: fixed;
   background-image: url('../img/m2033b2.jpg');
+  box-sizing: border-box;
   div{
     padding-top: 3%;
     width: 80%;
     margin: 0 auto;
     display: block;
+    box-sizing: border-box;
     span{
       display:inline-block;
-      width: 60%;
+      width: 66%;
+      padding: 2% 0 1% 2%;
+      margin-left: 1%;
       background-color:rgba(0, 0, 15, 0.6);
       vertical-align: top;
       h1{
         font-size: 35px;
         font-weight: bold;
         padding-bottom:5%;
+        font-family: "Cinzel";
       }
       p{
         font-size: 25px;
         text-align: justify;
+        font-family: "Montserrat";
         overflow:auto;
         height: 500px;
       }
@@ -180,44 +195,51 @@ table {
     img{
       display:inline-block;
       width:30%;
-      margin-right: 4%;
     }
   }
 }
+//4A games
 .four{
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   background-color: rgb(1, 10, 1);
   color: white;
+  font-size: 0;
+  box-sizing: border-box;
   div{
     padding-top: 3%;
-    
     width: 80%;
     margin: 0 auto;
     display: block;
+    box-sizing: border-box;
     span{
       display: inline-block;
-      width: 60%;
+      width: 56%;
+      padding: 2%;
+      vertical-align: top;
+      text-align: justify;
       background-color: rgba(0, 0, 0, 0.507);
       vertical-align: top;
       h1{
         font-size: 35px;
         font-weight: bold;
         padding-bottom: 5%;
+        font-family: "Cinzel";
       }
       p{
         font-size: 25px;
+        font-family: "Montserrat";
       }
     }
     img{
       display: inline-block;
-      width: 30%;
-      margin-left: 4%;
+      width: 40%;
+      margin: 0 auto;
     }
   }
 }
-
+//youtube
 .five{
   background-repeat: no-repeat;
   background-image:url('../img/m2033b1.jpg');
@@ -231,6 +253,8 @@ table {
     font-weight: bold;
     margin: 0 auto;
     width: 80%;
+    font-family: "Cinzel";
+    
   }
   .videoWrapper{
     position: relative;
@@ -247,6 +271,7 @@ table {
   }
 
 }
+//screenShots
 .six{
   background-repeat: no-repeat;
   height: 100vh;
@@ -258,6 +283,7 @@ table {
     font-weight: bold;
     margin: 0 auto;
     width: 80%;
+    font-family: "Cinzel";
   }
   div{
     display: block;
@@ -266,6 +292,7 @@ table {
   }
 
 }
+//end
 .seven{
   background-repeat: no-repeat;
   height: 20vh;
@@ -279,11 +306,13 @@ table {
     text-align: center;
     display: block;
     font-size: 25px;
+    font-family: "Montserrat";
     color: white;
     h1{
     font-size: 35px;
     font-weight: bold;
     margin: 0 auto;
+    font-family: "Cinzel";
     width: 80%;
     color: white;
     label{
@@ -300,8 +329,9 @@ table {
     }
     button{
       color:white;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgb(255, 0, 0);
       padding: 5px 20px;
+      outline: none;
       border-radius: 3%;
       font-weight: bold;
     }

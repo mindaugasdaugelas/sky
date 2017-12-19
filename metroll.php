@@ -18,7 +18,7 @@ $success = mysqli_real_connect(
 $name = $_GET['name'];
 $email = $_GET['email'];
 if(isset($name) && isset($email)){
-    $sqlPridejimas = "INSERT INTO `m2033`(`id`, `name`, `email`) VALUES ('','$name','$email')";
+    $sqlPridejimas = "INSERT INTO `metroll`(`id`, `name`, `email`) VALUES ('','$name','$email')";
     $resultsPridejimas = mysqLi_query($link, $sqlPridejimas);
 }
 
@@ -34,7 +34,8 @@ if(isset($name) && isset($email)){
     <title>MetroLastLight</title>
     <link rel="stylesheet" href="css/metroLLstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat" rel="stylesheet">
+  </head>
 <body>
 
   <section class="pirmas" id="home">
@@ -143,7 +144,7 @@ if(isset($name) && isset($email)){
   </section>
   <section class="mobsters">
     <div>
-      <h1>Monsters</h1>
+      <h1>Mutants</h1>
       <!-- type 1 -->
       <span class="monsters">
         <span>
@@ -203,7 +204,7 @@ if(isset($name) && isset($email)){
     </div>
   </section>
   <section class="penktas" id="galery">
-    <h1>Videos</h1>
+    <h1>Video</h1>
     <div class="videoWrapper">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/7DUCA8wK9Ls?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>  </section>
   <section class="sestas">
@@ -226,7 +227,7 @@ if(isset($name) && isset($email)){
       <input type="text" name="name" placeholder="Name">
       <label for="">Email:</label>
       <input type="text" name="email" placeholder="Email">
-      <button>sub</button>
+      <button>SUBSCRIBE</button>
     </form>
     <div>
       <a href="https://www.facebook.com/Metro.2034/" target="blank">

@@ -9,7 +9,8 @@
     <title>MetroExodus</title>
     <link rel="stylesheet" href="css/metroEX.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat" rel="stylesheet">
+  </head>
 <body>
 <div class="video-background">
     <div class="video-foreground">

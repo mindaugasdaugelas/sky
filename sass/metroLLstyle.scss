@@ -47,7 +47,7 @@ table {
     border-spacing: 0;
 }
 
-/*cia prasideda SKY*/
+/*cia prasideda Metro last light*/
 .pirmas{
   background-image: url('../img/metroLLmain.jpg');
   background-repeat: no-repeat;
@@ -120,22 +120,29 @@ table {
   font-size: 0;
   background-color: black;
   color: #E3B31B;
+  box-sizing: border-box;
   div{
-    padding-top:3%;
     width: 80%;
     margin: 0 auto;
+    padding-top: 2%;
     display: block;
+    box-sizing: border-box;
     span{
       display:inline-block;
-      width: 70%;
+      width: 66%;
+      padding: 2%;
+      margin: 0 auto;
+      text-align: justify;
       vertical-align: top;
       h1{
         font-size: 35px;
         font-weight: bold;
+        font-family: "Cinzel";
       }
       p{
         font-size: 25px;
         padding-top:5%;
+        font-family: "Montserrat";
       }
     }
     img{
@@ -169,6 +176,7 @@ table {
     text-align: center;
     font-weight: bold;
     padding: 3%;
+    font-family: "Cinzel";
     }
     span{
       width: 40%;
@@ -184,6 +192,7 @@ table {
         font-weight: bold;
       }
       p{
+        font-family: "Montserrat";
         margin-top: 2%;
         font-size: 25px;
       }
@@ -203,14 +212,17 @@ table {
     padding-top: 2%;
     box-sizing: border-box;
     width: 80%;
+    text-align: justify;
     margin: 0 auto;
     h1{
       font-size: 35px;
       font-weight: bold;
       padding-bottom: 2%;
+      font-family: "Cinzel";
     }
     p{
     font-size: 20px;
+    font-family: "Montserrat";
     }
     span:nth-of-type(1){
       box-sizing: border-box;
@@ -218,7 +230,7 @@ table {
       margin: 0 auto;
       span{
         padding: 2%;
-        background-color: rgba(255, 0, 0, 0.5);
+        background-color: rgba(34, 0, 0, 0.164);
         width: 40%;
         vertical-align: top;
         display: inline-block;
@@ -231,6 +243,7 @@ table {
         }
           p{
           font-size: 25px;
+          
       }
     }
     span:nth-of-type(2){
@@ -238,15 +251,15 @@ table {
       padding-top: 5%;
       margin: 0 auto;
       img{
-      width: 60%;
+      width: 50%;
       display: inline-block;
       margin: 0 auto;
       }
       span{
       padding: 2%;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgba(34, 0, 0, 0.164);
       vertical-align: top;
-      width: 40%;
+      width: 50%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -265,7 +278,7 @@ table {
       }
       span{
       padding: 2%;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgba(34, 0, 0, 0.164);
       vertical-align: top;
       width: 40%;
       display:inline-block;
@@ -287,7 +300,7 @@ table {
       span{
       padding: 2%;
       vertical-align: top;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgba(34, 0, 0, 0.164);
       width: 40%;
       display:inline-block;
       margin: 0 auto;
@@ -335,9 +348,11 @@ table {
       font-size: 35px;;
       font-weight: bold;
       padding-bottom: 2%;
+      font-family: "Cinzel";
     }
     p{
       font-size: 25px;
+      font-family: "Montserrat";
     }
     span:nth-of-type(1){
       box-sizing: border-box;
@@ -495,6 +510,7 @@ table {
     font-weight: bold;
     margin: 0 auto;
     width: 80%;
+    font-family: "Cinzel";
   }
   .videoWrapper{
     position: relative;
@@ -522,6 +538,7 @@ table {
     font-weight: bold;
     margin: 0 auto;
     width: 80%;
+    font-family: "Cinzel";
   }
   div{
     display: block;
@@ -543,13 +560,28 @@ table {
     text-align: center;
     display: block;
     font-size: 25px;
+    font-family: "Montserrat";
     h1{
       font-size: 35px;
       font-weight: bold;
       margin: 0 auto;
       width: 80%;
+      font-family: "Cinzel";
     }
     input{
+      width: 10%;
+      height: 20px;
+    }
+    input:nth-of-type(2){
+      width: 20%;
+    }
+    button{
+      color: black;
+      background-color: #E3B31B;
+      padding: 5px 20px;
+      border-radius: 3%;
+      font-weight: bold;
+      outline: none;
     }
   }
   div{
