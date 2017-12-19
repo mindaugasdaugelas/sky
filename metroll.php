@@ -84,55 +84,90 @@
   <section class="ketvirtas" id="ketvirtas">
     <div>
       <h1>Major Factions</h1>
-      <span class="mySludes">
-        <img src="../img/metroLLrangers.jpg">
-        <h1>Rangers of the Order</h1>
-        <p>A para-military organization considered the protectors of the Metro, the Rangers, also known as Spartans, venture the Metro and the surface, eliminating mutants and bandits who prey on the weak. Although neutral, they maintain close ties with Polis (itself a neutral power), with many members hailing from The City. They possess no home stations, instead of occupying the surface base of Sparta, and the D6 bunker. Their leader, Miller, enforces a policy of 'if it's hostile, you kill it', which has served the Rangers well so far. Many members were previously Russian special forces or military, training which has helped the Rangers to gain a reputation as the most formidable fighters in the Metro. About 250 men and women can claim the honor of being Spartans, with 100 in the field at any time. This is also Artyom's faction.</p>
+      <span class="factions">
+        <img src="../img/metroLLrangers.jpg" width="90%">
+        <span>
+          <h1>Rangers of the Order</h1>
+          <p>A para-military organization considered the protectors of the Metro, the Rangers, also known as Spartans, venture the Metro and the surface, eliminating mutants and bandits who prey on the weak. Although neutral, they maintain close ties with Polis (itself a neutral power), with many members hailing from The City. They possess no home stations, instead of occupying the surface base of Sparta, and the D6 bunker. Their leader, Miller, enforces a policy of 'if it's hostile, you kill it', which has served the Rangers well so far. Many members were previously Russian special forces or military, training which has helped the Rangers to gain a reputation as the most formidable fighters in the Metro. About 250 men and women can claim the honor of being Spartans, with 100 in the field at any time. This is also Artyom's faction.</p>
+        </span>
       </span>
-      <span class="mySludes">
-        <img src="../img/metroLLreich.jpg" width="1000px">
-        <h1>Fourth Reich</h1>
-        <p>A far-right faction inspired by the ideas and policies of Adolf Hitler and his Third Reich. Led by the Führer and formed around a core of Neo-Nazis and pre-war xenophobes, the Reich strives to build a New Order, envisioning a Metro free of mutants and non-Russians. To this end, they employ special instruments and techniques (modeled upon those used in Hitler's Germany) to ensure that genetic "standards" are upheld by all inhabitants of and travelers to the Reich. Their home station is the triple station of Tverskaya-Chekhovskaya-Pushkinskaya, though they occupy many other stations and bases on the surface. In a state of perpetual war with their political opposites, the Marxist-Leninist Red Line, the Reich possesses an army of between 2,000 and 3,000 men. Preferring (partially as a result of their smaller population) quality to quantity, Reich soldiers are significantly better equipped and trained on a man-to-man basis than their more numerous red counterparts, a situation which clearly parallels the Eastern Front of World War II.</p>
+      <span class="factions">
+        <img src="../img/metroLLreich.jpg">
+        <span>
+          <h1>Fourth Reich</h1>
+          <p>A far-right faction inspired by the ideas and policies of Adolf Hitler and his Third Reich. Led by the Führer and formed around a core of Neo-Nazis and pre-war xenophobes, the Reich strives to build a New Order, envisioning a Metro free of mutants and non-Russians. To this end, they employ special instruments and techniques (modeled upon those used in Hitler's Germany) to ensure that genetic "standards" are upheld by all inhabitants of and travelers to the Reich. Their home station is the triple station of Tverskaya-Chekhovskaya-Pushkinskaya, though they occupy many other stations and bases on the surface. In a state of perpetual war with their political opposites, the Marxist-Leninist Red Line, the Reich possesses an army of between 2,000 and 3,000 men. Preferring (partially as a result of their smaller population) quality to quantity, Reich soldiers are significantly better equipped and trained on a man-to-man basis than their more numerous red counterparts, a situation which clearly parallels the Eastern Front of World War II.</p>
+        </span>
       </span>
-      <span class="mySludes" width="1000px">
+      <span class="factions" width="1000px">
         <img src="../img/metroLLhanza.jpg" width="1000px">
-        <h1>The Commonwealth of the Stations of the Ring Line</h1>
-        <p>Commonly shortened to "Hansa", this faction is a collection of stations led by President Pyotr Rusakov and occupying the vital Koltsevaya Ring Line. Formed soon after the collapse of Central Metro Command, Hansa is the most influential faction in the Metro. Occupying what could be considered the "jugular" of the entire metro system, trade from every station and faction in the Metro passes through Hansa checkpoints. To protect its sovereignty, security, and trade revenues, Hansa possesses a potent force of 4000 to 5000 soldiers. Despite this impressive ensemble, Hansa remains something of an apathetic bystander to strife in the tunnels, preferring to use sanctions and threats when necessary to protect the Commonwealth's interests.</p>
+        <span>
+          <h1>The Commonwealth of the Stations of the Ring Line</h1>
+          <p>Commonly shortened to "Hansa", this faction is a collection of stations led by President Pyotr Rusakov and occupying the vital Koltsevaya Ring Line. Formed soon after the collapse of Central Metro Command, Hansa is the most influential faction in the Metro. Occupying what could be considered the "jugular" of the entire metro system, trade from every station and faction in the Metro passes through Hansa checkpoints. To protect its sovereignty, security, and trade revenues, Hansa possesses a potent force of 4000 to 5000 soldiers. Despite this impressive ensemble, Hansa remains something of an apathetic bystander to strife in the tunnels, preferring to use sanctions and threats when necessary to protect the Commonwealth's interests.</p>
+        </span>
       </span>
-      <span class="mySludes">
+      <span class="factions">
         <img src="../img/metroLLreds.jpg" width="1000px">
-        <h1>Red Line</h1>
-        <p>A Marxist-Leninist and Neo-Stalinist faction, the Red Line is the haven of Soviet nostalgists and aging former members of the CPSU and Komsomol. Led by General Secretary Maxim Moskvin, the Communist Party maintains control much as in Stalin's time- through a program of censorship, political and social repression, and webs of spies and informants. The Reds occupy most of the Sokolnicheskaya Line (literally, "Red Line"; the oldest in the Metro and a constant reminder of the glories of Russia's socialist past) minus the two stations of the Ring, and possess the largest population and greatest territory in the Metro. Much like the Soviet Army of the Second World War, the Red Line relies on a massive, but poorly trained and equipped, conscript army. Of the Line's 15,000 citizens, 6,000-7,000 serve in the Armed Forces, engaged in a constant struggle against the Neo-Nazis of the Fourth Reich.</p>
+        <span>
+          <h1>Red Line</h1>
+          <p>A Marxist-Leninist and Neo-Stalinist faction, the Red Line is the haven of Soviet nostalgists and aging former members of the CPSU and Komsomol. Led by General Secretary Maxim Moskvin, the Communist Party maintains control much as in Stalin's time- through a program of censorship, political and social repression, and webs of spies and informants. The Reds occupy most of the Sokolnicheskaya Line (literally, "Red Line"; the oldest in the Metro and a constant reminder of the glories of Russia's socialist past) minus the two stations of the Ring, and possess the largest population and greatest territory in the Metro. Much like the Soviet Army of the Second World War, the Red Line relies on a massive, but poorly trained and equipped, conscript army. Of the Line's 15,000 citizens, 6,000-7,000 serve in the Armed Forces, engaged in a constant struggle against the Neo-Nazis of the Fourth Reich.</p>
+        </span>
       </span>
     </div>
   </section>
-  <section class="monsters">
+  <section class="mobsters">
     <div>
       <h1>Monsters</h1>
-      <span>
-        <img src="../img/metroLLnosach.jpg" alt="">
+      <span class="monsters">
+        <span>
+          <h1>Nosalies</h1>
+          <p>Nosalises are the standard enemy of the Metro video game series. They are fierce predators, extremely territorial, and can easily overwhelm fortified positions in large numbers. Nosalises differ from most other mutant types by the sheer number of variant subspecies that exist under the generalisation of "Nosalis". Common between all types however, is a bipedal and humanoid shape with two arms and legs, arched spines, and large round heads that prominently display big noses, gaping jaws, and huge teeth. Their nests are seemingly everywhere in the metro, but the creatures are less frequently seen on the surface. Nosalises seem to be derived from moles, as indicated by their Latin name, as well as their prominent snout and large claws. Like most animal inhabitants of the Metro and surface, they have undergone extreme mutation due to prolonged radioactive exposure. Some Nosalis variants may instead be derived from Shrews or Desmans, both of which were native to Russia before the war.
+          </p>
+        </span>
+        <img src="../img/mnosalis.png" >
       </span>
-      <span>
-        <img src="../img/metroLLwatchmen.jpg" alt="">
+      <span class="monsters">
+        <img src="../img/watcher.png" >
+        <span>
+          <h1>Watcher</h1>
+          <p>Watchers resemble Dogs, both in behaviour and appearance. The Watcher can commonly be found standing up on two hind legs sniffing the air or baying into the distance. A Watcher's mouth is very odd, it is angled upward and sunken into the face, giving the watcher a face reminiscent of a Bull Dog or Boxer breed of dog. A pair of phalanges adjoin either side of the mouth and have some teeth lining the lower edge. These are probably used to give the watcher a greater surface area when biting, or to amplify its howls.
+          </p>
+        </span>
       </span>
-      <span>
-        <img src="../img/metroLLdemon.jpg" alt="">
+      <span class="monsters">
+        <span>
+          <h1>Demon</h1>
+          <p>A Demon can be described as having a knobbly spine, short tail and three pairs of limbs: two prehensile arms, two legs and two large wings. They also have a long head with a blunt snout, consisting of a bat-like nose, eyes with vertical cat-like slit pupils set far apart on the head, and a large mouth with 4 canines and several secondary teeth. The backs of Demons are covered in sparse, short black fur and there are folds of skin on the base of the neck. Their wings are attached to their body with massively muscled arm like limbs that are almost twice the diameter of their thigh muscles. This explains how Demons can fly, despite a their massive size - a Demon's wings are in fact so powerful that they can hover in the air for significant periods of time. Demons vary in size from babies the size of household cats to the largest encountered in the level, The Crossing; this dead Demon is the size of a large horse. Demons produce roars that seem to be a guttural version of a tiger's. Because their eyes are quite small and on the sides of their head, it is unlikely that the demons hunt by sight. Their large nasal ducts suggest a powerful sense of smell.
+          </p>
+        </span>
+        <img src="../img/demon.png" >
       </span>
-      <span>
-        <img src="../img/metroLLlurker.jpg" alt="">
+      <span class="monsters">
+        <img src="../img/lurker.jpg">
+        <span>
+          <h1>Lurker</h1>
+          <p>Lurkers are small dog-like creatures that share similarities with watchmen. They are very fast and tend to jump up from holes in the ground and launch themselves at threats or food. They often show up in packs of one to three at a time, even if more are in the area. Lurkers are mostly scavengers that press in upon carcasses, and rarely hunt live prey. They have almost pink skin and no body hair whatsoever. They also possess a second pair of eyes, which are very small and are probably useless as they appear to be milky white (a sign of blindness).
+          </p>
+        </span>
+        
       </span>
-      <span>
-        <img src="../img/metroLLarahnid.jpg" alt="">
+      <span class="monsters">
+        <span>
+          <h1>Shrimp</h1>
+          <p>Despite a number of forms, all shrimps share several similarities. For one, all shrimp share similar visual characteristics - including long slender bodies ending with pronounced heads, large arm-like appendages and heavy chitinous armor. The hard shells, made out of multiple plates or large scales, resemble that of a hybrid of lobster and common cockroach, and is solid enough to absorb or deflect shotgun fire. The end of their tails shows some kind of spikes, like a lot of arthropods, possibly used to dig in the ground in order to lay eggs. Shrimp, as a category, can be found all over the  Metro and the surface, always near sources of water, which they presumably live within. Such behavior suggests their origin could be a river arthropod, such as a crayfish - but it could also be some kind of terrestrial insect brought back into water by radiation. Interestingly, the long extendable limb on their undersides implies that at least some shrimp variants were in fact mutated from dragonfly nymphs, which possess similar grasping mouth-parts. A dragonfly origin could certainly explain the shrimps' physical appearance as well as their close association with warm and wet environments.
+          </p>
+        </span>
+        <img src="../img/shrimp.png">
       </span>
-      <span>
-        <img src="../img/metroLLbear.jpg" alt="">
+      <span class="monsters">
+        <img src="../img/spider.png">
+        <span>
+          <h1>Spider Bug</h1>
+          <p>Large spiders are enemies encountered in several chapters throughout Last Light, first appearing in Reich, but first fought in Torchlight. All variations of spider will avoid any light sources, including Artyom's flashlight, so turn on all the available lights in your area to create safe zones in case you need to retreat. When exposed to the flashlight beam, spiders will begin to smoke, turn a reddish-black color, and often backpedal away from Artyom to attempt to break line of sight, such as by scurrying behind a pillar or around a corner. Once they are safely out of the light, they will come back to attack again. Adult spiders have a thick armored shell that is impervious to gunfire, and must be flipped onto their backs via exposure to light to kill; these can be distinguished from their weaker hatchling counterparts, that are not bulletproof, by their brown coloration.
+          </p>
+        </span>
       </span>
-      <span>
-        <img src="../img/metroLLbig.jpg" alt="">
-      </span>
-      <span>
-        <img src="../img/metroLLnosach.jpg" alt="">
-      </span>
+      <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="buttonright" onclick="plusDivs(1)">&#10095;</button>
     </div>
   </section>
   <section class="penktas" id="galery">

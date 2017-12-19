@@ -112,6 +112,7 @@ table {
   }
 }
 }
+// about
 .antras{
   background-repeat: no-repeat;
   height: 80vh;
@@ -143,6 +144,7 @@ table {
     }
   }
 }
+//changes
 .trecias{
   background-repeat:no-repeat;
   background-image: url('../img/metroLLb1.jpg');
@@ -188,28 +190,247 @@ table {
   }
   }
 }
+//faction
 .ketvirtas{
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   background-color: black;
   color: #E3B31B;
   div{
+    padding-top: 1%;
     width: 80%;
     margin: 0 auto;
+    h1{
+      font-size: 35px;
+      font-weight: bold;
+      padding-bottom: 2%;
+    }
+    p{
+    font-size: 20px;
+    }
+    span:nth-of-type(1){
+      span{
+        width: 40%;
+        padding-left: 5%;
+        display: inline-block;
+        }
+        img{
+          display:inline-block;
+          width: 50%;
+          margin: 0 auto;
+          text-align: center;
+        }
+                p{
+          font-size: 25px;
+      }
+    }
+    span:nth-of-type(2){
+      box-sizing: border-box;
+      padding-top: 1%;
+      img{
+      width: 60%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding-left: 5%;
+      vertical-align: top;
+      width: 30%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+        }
+    }
+      span:nth-of-type(3){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 55%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding-left: 5%;
+      vertical-align: top;
+      width: 35%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+        }
+    }
+      span:nth-of-type(4){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 40%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding-left: 5%;
+      vertical-align: top;
+      width: 50%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+        }
+    }
+
   }
 }
-.monsters{
+//monstrs
+.mobsters{
   background-repeat: no-repeat;
-  height: 100vh;
+  background-image: url("../img/metroLLb3.jpg");
+  background-attachment: fixed;
+  height: 90vh;
+  font-size: 0;
   position: relative;
   background-color: rgb(19, 16, 16);
   color: #E3B31B;
   div{
+    padding-top: 2%;
+    box-sizing: border-box;
     width: 80%;
     margin: 0 auto;
+    h1{
+      font-size: 35px;;
+      font-weight: bold;
+      padding-bottom: 2%;
+    }
+    p{
+      font-size: 25px;
+    }
+    span:nth-of-type(1){
+      box-sizing: border-box;
+      padding-top: 5%;
+      margin: 0 auto;
+      img{
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      vertical-align: top;
+      width: 60%;
+      display:inline-block;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.5);
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
+    span:nth-of-type(2){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      background-color: rgba(0, 0, 0, 0.5);
+      vertical-align: top;
+      width: 60%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
+    span:nth-of-type(3){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 40%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      background-color: rgba(0, 0, 0, 0.5);
+      vertical-align: top;
+      width: 50%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
+    span:nth-of-type(4){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      background-color: rgba(0, 0, 0, 0.5);
+      vertical-align: top;
+      width: 60%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
+    span:nth-of-type(5){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      background-color: rgba(0, 0, 0, 0.5);
+      vertical-align: top;
+      width: 60%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
+    span:nth-of-type(6){
+      box-sizing: border-box;
+      padding-top: 5%;
+      img{
+      width: 50%;
+      display: inline-block;
+      margin: 0 auto;
+      }
+      span{
+      padding: 2%;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 40%;
+      display:inline-block;
+      margin: 0 auto;
+        h1{
+            font-size: 30px;
+          }
+      }
+    }
   }
 }
+//video
 .penktas{
   background-repeat: no-repeat;
   background-image:url('../img/metroLLb2.jpg');
@@ -217,7 +438,7 @@ table {
   height: 100vh;
   position:relative;
   background-color: black;
-  color: white;
+  color: #E3B31B;
   h1{
     font-size: 35px;
     font-weight: bold;
@@ -238,12 +459,13 @@ table {
     }
   }
 }
+//screenshots
 .sestas{
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
   background-color: black;
-  color: white;
+  color: #E3B31B;
   h1{
     font-size: 35px;
     font-weight: bold;
@@ -257,6 +479,7 @@ table {
   }
 
 }
+//end
 .septintas{
   background-repeat: no-repeat;
   height: 20vh;
