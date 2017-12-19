@@ -1,3 +1,28 @@
+<?php
+$user = 'root';
+$password = 'root';
+$db = 'metro';
+$host = 'localhost';
+$port = 3306;
+
+$link = mysqli_init();
+$success = mysqli_real_connect(
+    $link,
+    $host,
+    $user,
+    $password,
+    $db,
+    $port
+);
+//Pridejimas
+$name = $_GET['name'];
+$email = $_GET['email'];
+if(isset($name) && isset($email)){
+    $sqlPridejimas = "INSERT INTO `m2033`(`id`, `name`, `email`) VALUES ('','$name','$email')";
+    $resultsPridejimas = mysqLi_query($link, $sqlPridejimas);
+}
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -112,11 +137,14 @@
           <p>A Marxist-Leninist and Neo-Stalinist faction, the Red Line is the haven of Soviet nostalgists and aging former members of the CPSU and Komsomol. Led by General Secretary Maxim Moskvin, the Communist Party maintains control much as in Stalin's time- through a program of censorship, political and social repression, and webs of spies and informants. The Reds occupy most of the Sokolnicheskaya Line (literally, "Red Line"; the oldest in the Metro and a constant reminder of the glories of Russia's socialist past) minus the two stations of the Ring, and possess the largest population and greatest territory in the Metro. Much like the Soviet Army of the Second World War, the Red Line relies on a massive, but poorly trained and equipped, conscript army. Of the Line's 15,000 citizens, 6,000-7,000 serve in the Armed Forces, engaged in a constant struggle against the Neo-Nazis of the Fourth Reich.</p>
         </span>
       </span>
+      <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="buttonright" onclick="plusDivs(1)">&#10095;</button>
     </div>
   </section>
   <section class="mobsters">
     <div>
       <h1>Monsters</h1>
+      <!-- type 1 -->
       <span class="monsters">
         <span>
           <h1>Nosalies</h1>
@@ -125,6 +153,7 @@
         </span>
         <img src="../img/mnosalis.png" >
       </span>
+      <!-- type 2 -->
       <span class="monsters">
         <img src="../img/watcher.png" >
         <span>
@@ -133,6 +162,7 @@
           </p>
         </span>
       </span>
+      <!-- type 3 -->
       <span class="monsters">
         <span>
           <h1>Demon</h1>
@@ -141,6 +171,7 @@
         </span>
         <img src="../img/demon.png" >
       </span>
+      <!-- type 4 -->
       <span class="monsters">
         <img src="../img/lurker.jpg">
         <span>
@@ -148,8 +179,8 @@
           <p>Lurkers are small dog-like creatures that share similarities with watchmen. They are very fast and tend to jump up from holes in the ground and launch themselves at threats or food. They often show up in packs of one to three at a time, even if more are in the area. Lurkers are mostly scavengers that press in upon carcasses, and rarely hunt live prey. They have almost pink skin and no body hair whatsoever. They also possess a second pair of eyes, which are very small and are probably useless as they appear to be milky white (a sign of blindness).
           </p>
         </span>
-        
       </span>
+      <!-- type 5 -->
       <span class="monsters">
         <span>
           <h1>Shrimp</h1>
@@ -158,6 +189,7 @@
         </span>
         <img src="../img/shrimp.png">
       </span>
+      <!-- type 6 -->
       <span class="monsters">
         <img src="../img/spider.png">
         <span>
@@ -166,8 +198,8 @@
           </p>
         </span>
       </span>
-      <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="buttonright" onclick="plusDivs(1)">&#10095;</button>
+      <button class="butleft" onclick="plusSlides(-1)">&#10094;</button>
+      <button class="butright" onclick="plusSlides(1)">&#10095;</button>
     </div>
   </section>
   <section class="penktas" id="galery">
@@ -188,13 +220,12 @@
     </div>
   </section>
 <section class="septintas">
-    <form>
+    <form action="metroll.php" method="GET">
       <h1>Subscribe to newsletter</h1>
-      <!--     <form action="index.php" method="get"> -->
       <label for="">Name:</label>
-      <input type="text" name="name">
+      <input type="text" name="name" placeholder="Name">
       <label for="">Email:</label>
-      <input type="text" name="email">
+      <input type="text" name="email" placeholder="Email">
       <button>sub</button>
     </form>
     <div>

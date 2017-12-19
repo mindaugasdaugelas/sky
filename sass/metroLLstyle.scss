@@ -117,6 +117,7 @@ table {
   background-repeat: no-repeat;
   height: 80vh;
   position: relative;
+  font-size: 0;
   background-color: black;
   color: #E3B31B;
   div{
@@ -126,7 +127,7 @@ table {
     display: block;
     span{
       display:inline-block;
-      width: 60%;
+      width: 70%;
       vertical-align: top;
       h1{
         font-size: 35px;
@@ -140,7 +141,7 @@ table {
     img{
       display: inline-block;
       width: 30%;
-      margin-left: 4%;
+      margin: 0 auto;
     }
   }
 }
@@ -193,12 +194,14 @@ table {
 //faction
 .ketvirtas{
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
+  font-size: 0;
   position: relative;
   background-color: black;
   color: #E3B31B;
   div{
-    padding-top: 1%;
+    padding-top: 2%;
+    box-sizing: border-box;
     width: 80%;
     margin: 0 auto;
     h1{
@@ -210,33 +213,40 @@ table {
     font-size: 20px;
     }
     span:nth-of-type(1){
+      box-sizing: border-box;
+      padding-top: 5%;
+      margin: 0 auto;
       span{
+        padding: 2%;
+        background-color: rgba(255, 0, 0, 0.5);
         width: 40%;
-        padding-left: 5%;
+        vertical-align: top;
         display: inline-block;
+        margin: 0 auto;
         }
         img{
           display:inline-block;
-          width: 50%;
+          width: 60%;
           margin: 0 auto;
-          text-align: center;
         }
-                p{
+          p{
           font-size: 25px;
       }
     }
     span:nth-of-type(2){
       box-sizing: border-box;
-      padding-top: 1%;
+      padding-top: 5%;
+      margin: 0 auto;
       img{
       width: 60%;
       display: inline-block;
       margin: 0 auto;
       }
       span{
-      padding-left: 5%;
+      padding: 2%;
+      background-color: rgba(255, 0, 0, 0.5);
       vertical-align: top;
-      width: 30%;
+      width: 40%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -247,15 +257,17 @@ table {
       span:nth-of-type(3){
       box-sizing: border-box;
       padding-top: 5%;
+      margin: 0 auto;
       img{
-      width: 55%;
+      width: 60%;
       display: inline-block;
       margin: 0 auto;
       }
       span{
-      padding-left: 5%;
+      padding: 2%;
+      background-color: rgba(255, 0, 0, 0.5);
       vertical-align: top;
-      width: 35%;
+      width: 40%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -266,15 +278,17 @@ table {
       span:nth-of-type(4){
       box-sizing: border-box;
       padding-top: 5%;
+      margin: 0 auto;
       img{
-      width: 40%;
+      width: 60%;
       display: inline-block;
       margin: 0 auto;
       }
       span{
-      padding-left: 5%;
+      padding: 2%;
       vertical-align: top;
-      width: 50%;
+      background-color: rgba(255, 0, 0, 0.5);
+      width: 40%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -282,7 +296,24 @@ table {
           }
         }
     }
-
+    .buttonleft{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      padding: 20px;
+      background-color: #E3B31B;
+      border-radius: 20%;
+      margin: 1%;
+    }
+    .buttonright{
+      position: absolute;
+      right: 0;
+      top:50%;
+      padding: 20px;
+      background-color: #E3B31B;
+      border-radius: 20%;
+      margin: 1%;
+    }
   }
 }
 //monstrs
@@ -320,7 +351,7 @@ table {
       span{
       padding: 2%;
       vertical-align: top;
-      width: 60%;
+      width: 70%;
       display:inline-block;
       margin: 0 auto;
       background-color: rgba(0, 0, 0, 0.5);
@@ -332,8 +363,9 @@ table {
     span:nth-of-type(2){
       box-sizing: border-box;
       padding-top: 5%;
+      margin: 0 auto;
       img{
-      width: 30%;
+      width: 25%;
       display: inline-block;
       margin: 0 auto;
       }
@@ -341,7 +373,7 @@ table {
       padding: 2%;
       background-color: rgba(0, 0, 0, 0.5);
       vertical-align: top;
-      width: 60%;
+      width: 75%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -361,7 +393,7 @@ table {
       padding: 2%;
       background-color: rgba(0, 0, 0, 0.5);
       vertical-align: top;
-      width: 50%;
+      width: 60%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -373,7 +405,7 @@ table {
       box-sizing: border-box;
       padding-top: 5%;
       img{
-      width: 30%;
+      width: 25%;
       display: inline-block;
       margin: 0 auto;
       }
@@ -381,7 +413,7 @@ table {
       padding: 2%;
       background-color: rgba(0, 0, 0, 0.5);
       vertical-align: top;
-      width: 60%;
+      width: 75%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -401,7 +433,7 @@ table {
       padding: 2%;
       background-color: rgba(0, 0, 0, 0.5);
       vertical-align: top;
-      width: 60%;
+      width: 70%;
       display:inline-block;
       margin: 0 auto;
         h1{
@@ -420,13 +452,32 @@ table {
       span{
       padding: 2%;
       background-color: rgba(0, 0, 0, 0.5);
-      width: 40%;
+      width: 50%;
       display:inline-block;
+      vertical-align: top;
       margin: 0 auto;
         h1{
             font-size: 30px;
           }
       }
+    }
+    .butleft{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      padding: 20px;
+      background-color: #E3B31B;
+      border-radius: 20%;
+      margin: 1%;
+    }
+    .butright{
+      position: absolute;
+      right: 0;
+      top:50%;
+      padding: 20px;
+      background-color: #E3B31B;
+      border-radius: 20%;
+      margin: 1%;
     }
   }
 }

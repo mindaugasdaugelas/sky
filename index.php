@@ -129,7 +129,6 @@ if(isset($name) && isset($email)){
   <section class="seven">
     <form action="index.php" method="GET">
       <h1>Subscribe to newsletter</h1>
-      <!--     <form action="index.php" method="get"> -->
       <label for="">Name:</label>
       <input type="text" name="name" placeholder="Name">
       <label for="">Email:</label>
