@@ -90,15 +90,16 @@ table {
       width: 80%;
       z-index:999;
       margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.466);
       li{
         display: inline-block;
         border-radius: 5%;
         margin: 0 auto;
-        transform:90%;
         width: 19%;
         text-align: center;
         font-size: 30px;
         font-weight: bold;
+        padding-top: 1%;
         a{
           color: white;
         }
@@ -305,41 +306,41 @@ table {
       font-weight: bold;
     }
   }
-  div{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    box-sizing:border-box;
-    i{
-      display: inline-block;
-      margin-left: 2%;
-      margin-right: 2%;
-      color: white;
-      border-radius: 20%;
-    }
-    .fa-facebook-square:hover{
-      color:blue;
-      background-color: white;
-    }
-    .fa-twitter-square:hover{
-      color:#1DA1F2;
-      background-color: white;
-    }
-    .fa-steam-square:hover{
-      color:#17405B;
-      background-color: white;
-    }
-    .fa-youtube-play:hover{
-      color:red;
-      background-color: white;
-    }
-    .fa-book:hover{
-      color:green;
-      background-color: white;
-    }
-    .fa-instagram:hover{
-      color:#D74D64;
-      background-color: white;
-    }
+    div{
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      box-sizing:border-box;
+      i{
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: white;
+        border-radius: 20%;
+      }
+      .fa-facebook-square:hover{
+        color:blue;
+        background-color: white;
+      }
+      .fa-twitter-square:hover{
+        color:#1DA1F2;
+        background-color: white;
+      }
+      .fa-steam-square:hover{
+        color:#17405B;
+        background-color: white;
+      }
+      .fa-youtube-play:hover{
+        color:red;
+        background-color: white;
+      }
+      .fa-book:hover{
+        color:green;
+        background-color: white;
+      }
+      .fa-instagram:hover{
+        color:#D74D64;
+        background-color: white;
+      }
     }
   }

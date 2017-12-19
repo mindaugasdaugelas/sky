@@ -79,21 +79,23 @@ table {
   }
   span{
     width: 80%;
+    font-size: 0;
     display: block;
     margin: 0 auto;
     nav{
       display: block;
       width: 80%;
+      box-sizing: border-box;
       margin: 0 auto;
       position:fixed;
       bottom: 0;
       z-index:999;
+      background-color: rgba(0, 0, 0, 0.432);
       li{
         display: inline-block;
-        width:16%;
+        width:19%;
         margin: 0 auto;
         text-align: center;
-        background-color: rgba(240, 240, 240, 0.3);
         font-size: 30px;
         font-weight: bold;
         padding-top: 1%;
@@ -101,13 +103,18 @@ table {
         a{
           color: #E3B31B;
         }
+        a:hover{
+          color: rgb(0, 0, 0);
+          background-color: #E3B31B;
+          padding: 5px 20px;
+        }
     }
   }
 }
 }
 .antras{
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 80vh;
   position: relative;
   background-color: black;
   color: #E3B31B;
@@ -147,31 +154,39 @@ table {
   margin: 0 auto;
   div{
     display: block;
+    width: 100%;
+    div{
+    display: block;
     margin: 0 auto;
     width:80%;
-    
+    box-sizing: border-box;
+
     h1{
     font-size: 35px;
-    padding-top: 2%;
     text-align: center;
+    font-weight: bold;
+    padding: 3%;
     }
     span{
       width: 40%;
       margin:2%;
+      padding: 1%;
       display: inline-block;
       vertical-align: top;
       margin-left: 5%;
       text-align: justify;
+      background-color: rgba(0, 0, 0, 0.5);
       h2{
         font-size: 35px;
+        font-weight: bold;
       }
       p{
         margin-top: 2%;
         font-size: 25px;
       }
     }
-    }
-  
+  }
+  }
 }
 .ketvirtas{
   background-repeat: no-repeat;
@@ -180,30 +195,21 @@ table {
   background-color: black;
   color: #E3B31B;
   div{
-    padding-top: 3%;
     width: 80%;
     margin: 0 auto;
-    display: block;
-    span{
-      display: inline-block;
-      width: 60%;
-      vertical-align: top;
-      h1{
-        font-size: 35px;
-        font-weight: bold;
-        padding-bottom: 5%;
-      }
-      p{
-        font-size: 25px;
-      }
-    }
-    img{
-      display: inline-block;
-      width: 30%;
-      margin-left: 4%;
-    }
   }
-};
+}
+.monsters{
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(19, 16, 16);
+  color: #E3B31B;
+  div{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .penktas{
   background-repeat: no-repeat;
   background-image:url('../img/metroLLb2.jpg');
